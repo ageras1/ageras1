@@ -1,0 +1,898 @@
+# Tag name          ;  color
+Marker Beacon       ; #c64600
+STANAG              ; #613583
+neo                 ; #8ff0a4
+Time Signal         ; #9141ac
+CIS                 ; #f9f06b
+MWARA               ; #ff7800
+SITOR               ; #26a269
+HFDL                ; #ffbe6f
+WSPR                ; #dc8add
+FSK                 ; #e5a50a
+Morse               ; #99c1f1
+FAX                 ; #f6d32d
+
+# Frequency ; Name                     ; Modulation          ;  Bandwidth; Tags
+       11900; Alpha F1 RUS (navigation system); CW-U                ;        500; Morse
+       12090; Alpha F4 RUS (navigation system); CW-U                ;        500; Morse
+       12650; Alpha F2 RUS (navigation system); CW-U                ;        500; Morse
+       14880; Alpha F3/p RUS (navigation system); CW-U                ;        500; Morse
+       15250; Alpha (wideband reception); LSB                 ;       2700; neo
+       16300; VTX1 IND (MSK)           ; CW-U                ;        500; Morse
+       16400; JXN NOR (MSK)            ; CW-U                ;        500; Morse
+       16800; FTA FRA (FSK)            ; CW-U                ;        500; FSK
+       17000; VTX2 IND (MSK)           ; CW-U                ;        500; Morse
+       17200; SAQ SWE (Grimeton alternator, twice yearly transmissions, see: alexander.n.se/?lang=en); CW-U                ;        500; Morse
+       18100; RDL RUS (FSK)            ; CW-U                ;        500; FSK
+       18200; VTX3 IND (MSK)           ; CW-U                ;        500; Morse
+       18300; HWU FR (MSK)             ; CW-U                ;        500; Morse
+       18900; RDL RUS (FSK)            ; CW-U                ;        500; FSK
+       19200; VTX4 IND (MSK)           ; CW-U                ;        500; Morse
+       19550; GQD? GBR (FSK)           ; CW-U                ;        500; FSK
+       19800; NWC AUS (MSK)            ; CW-U                ;        500; Morse
+       20270; ICV ITA (MSK)            ; CW-U                ;        500; Morse
+       20500; 3SA/3SB? CHN (FSK)       ; CW-U                ;        500; FSK
+       20900; HWU FR (MSK)             ; CW-U                ;        500; Morse
+       21100; RDL RUS (FSK)            ; CW-U                ;        500; FSK
+       21400; NPM HI (MSK)             ; CW-U                ;        500; Morse
+       21500; ? FSK                    ; CW-U                ;        500; FSK
+       21750; HWU FR (MSK)             ; CW-U                ;        500; Morse
+       22100; GBZ GBR (Skelton, FSK)   ; CW-U                ;        500; FSK
+       22200; NDT/JJI JPN (MSK)        ; CW-U                ;        500; Morse
+       22600; HWU FR (MSK)             ; CW-U                ;        500; Morse
+       23400; DHO38 GER (MSK)          ; CW-U                ;        500; Morse
+       24000; NAA MA (MSK)             ; CW-U                ;        500; Morse
+       24100; KOR (50bd/50Hz 9/1/2 FSK, per David L. Wilson); CW-U                ;        500; FSK
+       24500; CHN? (FSK)               ; CW-U                ;        500; FSK
+       24800; NLK WA (MSK)             ; CW-U                ;        500; Morse
+       25000; KOR (FSK, per David L. Wilson); CW-U                ;        500; FSK
+       25000; RAB99 RUS (Beta time signal, ID @xx:06:00); CW-U                ;        500; Time Signal
+       25200; NLM4 ND (MSK)            ; CW-U                ;        500; Morse
+       26000; Negev ISR (FSK)          ; CW-U                ;        500; FSK
+       26700; TBB TUR (FSK)            ; CW-U                ;        500; FSK
+       27300; RDL RUS (FSK, keyed-FSK ID); CW-U                ;        500; FSK
+       28000; 3SB/3SQ? CHN (MSK)       ; CW-U                ;        500; Morse
+       29700; Negev ISR (FSK)          ; CW-U                ;        500; FSK
+       31500; ? FSK                    ; CW-U                ;        500; FSK
+       37500; TFK ISL                  ; CW-U                ;        500; Morse
+       38000; SRC/SHR SWE (FSK)        ; CW-U                ;        500; FSK
+       40000; JJY JPN (ID @ xx:15&45:40, time signal); CW-U                ;        500; Time Signal
+       40400; SRC SWE                  ; CW-U                ;        500; Morse
+       40750; NAU PR (MSK)             ; CW-U                ;        500; Morse
+       42500; SRC SWE                  ; CW-U                ;        500; Morse
+       44200; ? ex-SRC (FSK, SWE)      ; CW-U                ;        500; FSK
+       45900; NSY ITA (MSK)            ; CW-U                ;        500; Morse
+       49000; SXA GRC (MSK)            ; CW-U                ;        500; Morse
+       49700; RTZ RUS (time signal)    ; CW-U                ;        500; Time Signal
+       51950; GIY20/GNY1/GYW1 GBR (FSK); CW-U                ;        500; FSK
+       53625; FSK (UNID, EU)           ; CW-U                ;        500; FSK
+       54000; NDI JPN (MSK)            ; CW-U                ;        500; Morse
+       57400; NRK ISL (FSK)            ; CW-U                ;        500; FSK
+       60000; JJY JPN (ID @ xx:15&45:40, time signal); CW-U                ;        500; Time Signal
+       60000; WWVB (no ID, reversed bit pattern, time signal); CW-U                ;        500; Time Signal
+       60000; MSF GBR (time signal)    ; CW-U                ;        500; Time Signal
+       61830; ? FSK (UNID)             ; CW-U                ;        500; FSK
+       62600; FUG FRA (MSK)            ; CW-U                ;        500; Morse
+       63850; FTA63 FRA (FSK)          ; CW-U                ;        500; FSK
+       65800; FUE FRA (MSK)            ; CW-U                ;        500; Morse
+       66350; RBU RUS (time signal)    ; CW-U                ;        500; Time Signal
+       68000; GYN/GYN1 GBR             ; CW-U                ;        500; Morse
+       68500; BPC CHN (off 2100-2400Z, time signal); CW-U                ;        500; Time Signal
+       73600; CFH CAN (Halifax, MSK)   ; CW-U                ;        500; Morse
+       74200; GYD GBR (FSK)            ; CW-U                ;        500; FSK
+       76200; CKN CAN (Vancouver, MSK) ; CW-U                ;        500; Morse
+       77500; DCF77 GER (time signal)  ; CW-U                ;        500; Time Signal
+       81000; GYN2 GBR                 ; CW-U                ;        500; Morse
+      100000; Loran-C (navigation system); AM                  ;      10000; neo
+      124000; CKN CAN (Vancouver, MSK) ; CW-U                ;        500; Morse
+      124500; SXJ GRC (FSK)            ; CW-U                ;        500; FSK
+      128000; DCF49 GER (telecontrol)  ; USB                 ;       2700; neo
+      134500; HGA22 HNG (telecontrol)  ; USB                 ;       2700; neo
+      135730; SXV GRC (FSK)            ; CW-U                ;        500; FSK
+      136000; WSPR                     ; USB                 ;       2700; WSPR
+      137900; DCF39 GER (telecontrol)  ; USB                 ;       2700; neo
+      145000; MSK (UNID)               ; CW-U                ;        500; Morse
+      147300; DDH47 GER (FSK)          ; CW-U                ;        500; FSK
+      153000; LW 153                   ; AM                  ;       5000; neo
+      162000; LW 162                   ; AM                  ;       5000; neo
+      171000; LW 171                   ; AM                  ;       5000; neo
+      180000; LW 180                   ; AM                  ;       5000; neo
+      183000; LW 183                   ; AM                  ;       5000; neo
+      198000; LW 198                   ; AM                  ;       5000; neo
+      207000; LW 207                   ; AM                  ;       5000; neo
+      216000; LW 216                   ; AM                  ;       5000; neo
+      225000; LW 225                   ; AM                  ;       5000; neo
+      234000; LW 234                   ; AM                  ;       5000; neo
+      243000; LW 243                   ; AM                  ;       5000; neo
+      252000; LW 252                   ; AM                  ;       5000; neo
+      270000; LW 270                   ; AM                  ;       5000; neo
+      279000; LW 279                   ; AM                  ;       5000; neo
+      474200; WSPR                     ; USB                 ;       2700; WSPR
+     1836600; WSPR                     ; USB                 ;       2700; WSPR
+     1838150; PSK31                    ; USB                 ;       2700; neo
+     2177000; DSC                      ; CW-U                ;        500; Morse
+     2187500; DSC  (distress)          ; CW-U                ;        500; Morse
+     2189500; DSC                      ; CW-U                ;        500; Morse
+     2500000; WWVH / WWV (time signals); AM                  ;      10000; Time Signal
+     2595200; STANAG (loud, 12AM)      ; USB                 ;       2700; STANAG
+     2627000; FAX VMC AUS (11PM)       ; USB                 ;       2700; FAX
+     2730500; STANAG (10PM)            ; USB                 ;       2700; STANAG
+     3330000; CHU CAN (time signal)    ; USB                 ;       2700; Time Signal
+     3365000; R. Cultura, BRA (7AM)    ; AM                  ;      10000; neo
+     3392000; CW (11PM)                ; CW-U                ;        500; Morse
+     3394000; SITOR (11PM)             ; CW-U                ;        500; SITOR
+     3407000; VOLMET (12AM)            ; USB                 ;       2700; neo
+     3438500; FSK (1AM)                ; USB                 ;       2700; FSK
+     3467000; MWARA SP (Major World Air Route Areas, South Pacific); USB                 ;       2700; MWARA
+     3576000; JT65                     ; USB                 ;       2700; neo
+     3580150; PSK31                    ; USB                 ;       2700; neo
+     3584500; FAX JPN? (1AM)           ; USB                 ;       2700; FAX
+     3592600; WSPR                     ; USB                 ;       2700; WSPR
+     3594000; marker beacons (watchlist); CW-U                ;        500; Marker Beacon
+     3621500; JMH JPN (FAX, 1AM)       ; USB                 ;       2700; FAX
+     3696000; FSK (non-ham, 1AM)       ; USB                 ;       2700; FSK
+     3756630; The Pip (5AM)            ; CW-U                ;        500; Morse
+     3810000; HD2IOA (watchlist, time signal, 0000-1200Z); LSB                 ;       2700; Time Signal
+     3829180; Squeaky Wheel L (5AM)    ; CW-U                ;        500; Morse
+     3830450; Squeaky Wheel H (5AM)    ; CW-U                ;        500; Morse
+     3945000; R. Vanuatu (0700-2000Z)  ; AM                  ;      10000; neo
+     4077000; STANAG 4197 (4-tone + burst, 12AM); USB                 ;       2700; STANAG
+     4137600; STANAG 4197 (4-tone + burst, 12AM); USB                 ;       2700; STANAG
+     4149500; CW (12AM)                ; CW-U                ;        500; Morse
+     4153000; slot machine JPN (12AM)  ; USB                 ;       2700; neo
+     4155100; STANAG (intermittent, 6AM); USB                 ;       2700; STANAG
+     4158000; SITOR (12AM)             ; CW-U                ;        500; SITOR
+     4161000; SITOR (7PM)              ; USB                 ;       2700; SITOR
+     4165000; STANAG (10AM)            ; USB                 ;       2700; STANAG
+     4177000; FSK (6PM RY testing +/- freq); USB                 ;       2700; FSK
+     4198000; CW (12AM)                ; CW-U                ;        500; Morse
+     4200000; FSK (5AM)                ; USB                 ;       2700; FSK
+     4202500; FSK (loud, 6AM)          ; CW-U                ;        500; FSK
+     4207500; DSC  (distress)          ; CW-U                ;        500; Morse
+     4208000; DSC                      ; CW-U                ;        500; Morse
+     4209500; SITOR (11PM)             ; CW-U                ;        500; SITOR
+     4212000; XSQ CHN (12AM)           ; CW-U                ;        500; Morse
+     4213000; WLO USA (11PM)           ; CW-U                ;        500; Morse
+     4215000; XSG CHN (12AM)           ; CW-U                ;        500; Morse
+     4218500; XSG CHN (12AM)           ; CW-U                ;        500; Morse
+     4225000; STANAG (1AM)             ; USB                 ;       2700; STANAG
+     4231500; FSK (8PM)                ; USB                 ;       2700; FSK
+     4231500; slot machine JPN (1AM)   ; USB                 ;       2700; neo
+     4243000; ?CW (12AM)               ; CW-U                ;        500; Morse
+     4248700; MS-188-110 AUS (24/7)    ; USB                 ;       2700; neo
+     4267000; CIS-12 RUS (12AM)        ; USB                 ;       2700; CIS
+     4271300; STANAG 4285 (930PM)      ; USB                 ;       2700; STANAG
+     4281000; STANAG (12AM)            ; USB                 ;       2700; STANAG
+     4284500; STANAG (4AM)             ; USB                 ;       2700; STANAG
+     4287500; FSK (10PM)               ; USB                 ;       2700; FSK
+     4291000; slot machine JPN (12AM)  ; USB                 ;       2700; neo
+     4294500; 8-chan FSK JPN (1AM, 6AM); USB                 ;       2700; FSK
+     4297000; FAX NOJ USA (12AM)       ; USB                 ;       2700; FAX
+     4302000; STANAG 4529 (4AM)        ; USB                 ;       2700; STANAG
+     4305350; FSK (4AM)                ; CW-U                ;        500; FSK
+     4317500; STANAG (very weak, 1AM)  ; USB                 ;       2700; STANAG
+     4325900; R marker (RUS, watchlist); CW-U                ;        500; Marker Beacon
+     4345000; FAX NMC (12AM)           ; USB                 ;       2700; FAX
+     4397000; CW (12AM)                ; CW-U                ;        500; Morse
+     4460000; CODAR (weak, 1AM)        ; USB                 ;       2700; neo
+     4465000; FSK (6AM)                ; USB                 ;       2700; FSK
+     4480000; FSK (6AM)                ; CW-U                ;        500; FSK
+     4483000; ship-to-ship comm (4PM)  ; USB                 ;       2700; neo
+     4498600; CIS-12 RUS (idling carriers, 12AM); USB                 ;       2700; CIS
+     4532000; RIS9 CW (12AM)           ; CW-U                ;        500; Morse
+     4549000; FSK (6AM)                ; USB                 ;       2700; FSK
+     4558000; marker beacons (watchlist); CW-U                ;        500; Marker Beacon
+     4588850; STANAG 4285 (930PM)      ; USB                 ;       2700; STANAG
+     4602000; FSK (7AM)                ; CW-U                ;        500; FSK
+     4614000; FSK (7AM)                ; CW-U                ;        500; FSK
+     4625000; The Buzzer (very weak, 6AM); AM                  ;       5000; neo
+     4626000; FSK (7PM)                ; USB                 ;       2700; FSK
+     4666000; MWARA CWP (Major World Air Route Areas, Central West Pacific, 1AM); USB                 ;       2700; MWARA
+     4672000; HFDL (SF USA GS-01, 1AM) ; USB                 ;       2700; HFDL
+     4678400; CW (7PM)                 ; CW-U                ;        500; Morse
+     4700300; STANAG (11PM)            ; USB                 ;       2700; STANAG
+     4725000; FSK (7AM)                ; USB                 ;       2700; FSK
+     4775000; CODAR (weak, 1AM)        ; USB                 ;       2700; neo
+     4810500; STANAG (9PM)             ; USB                 ;       2700; STANAG
+     4845000; LINK-11 (7PM)            ; USB                 ;       2700; neo
+     4855000; CW (11PM)                ; CW-U                ;        500; Morse
+     4860000; OTHR (50kHz wide, slow, 2AM); USB                 ;       2700; neo
+     4866900; CW (1AM)                 ; CW-U                ;        500; Morse
+     4903500; FSK (1AM)                ; USB                 ;       2700; FSK
+     4984000; FSK (9PM)                ; USB                 ;       2700; FSK
+     4996000; RWM RUS (time signal, 6AM); CW-U                ;        500; Time Signal
+     5000000; WWVH / WWV (time signals); AM                  ;      10000; Time Signal
+     5000000; BPM (time signal)        ; AM                  ;      10000; Time Signal
+     5082000; FAX (1AM)                ; USB                 ;       2700; FAX
+     5084300; PACTOR (11PM)            ; USB                 ;       2700; neo
+     5099000; FAX VMC AUS (8AM)        ; USB                 ;       2700; FAX
+     5104000; FSK (6AM)                ; CW-U                ;        500; FSK
+     5112000; FSK? (10PM)              ; USB                 ;       2700; FSK
+     5118000; FSK (1AM)                ; CW-U                ;        500; FSK
+     5125000; OTHR (1AM)               ; USB                 ;       2700; neo
+     5152000; FSK (6AM)                ; CW-U                ;        500; FSK
+     5153800; P marker (Kaliningrad RUS, 6AM); CW-U                ;        500; Marker Beacon
+     5154000; C marker (Moscow RUS, 6AM); CW-U                ;        500; Marker Beacon
+     5154200; F marker (Vladivostok RUS, 6AM, 10PM); CW-U                ;        500; Marker Beacon
+     5154400; M marker (Magadan RUS, 6AM, 10PM); CW-U                ;        500; Marker Beacon
+     5154500; LINK-11 (11PM)           ; LSB                 ;       2700; neo
+     5156800; L marker (RUS, 5AM)      ; CW-U                ;        500; Marker Beacon
+     5170000; Computer voice, Asian (6AM); USB                 ;       2700; neo
+     5174500; FSK (6AM)                ; USB                 ;       2700; FSK
+     5177000; FSK (6AM)                ; CW-U                ;        500; FSK
+     5183250; STANAG (8PM)             ; USB                 ;       2700; STANAG
+     5220000; OTHR (slow, 2AM)         ; USB                 ;       2700; neo
+     5234000; FSK (7PM)                ; CW-U                ;        500; FSK
+     5253500; FSK (1AM)                ; USB                 ;       2700; FSK
+     5260000; OTHR (slower than the other early-morning OTHRs, 10PM); USB                 ;       2700; neo
+     5269000; FSK (6AM)                ; CW-U                ;        500; FSK
+     5287200; WSPR                     ; USB                 ;       2700; WSPR
+     5292730; D/B marker (RUS, watchlist); CW-U                ;        500; Marker Beacon
+     5302500; FSK (10PM)               ; USB                 ;       2700; FSK
+     5315000; OTHR (1AM)               ; USB                 ;       2700; neo
+     5317000; FSK (6AM)                ; CW-U                ;        500; FSK
+     5330500; FSK (10PM)               ; USB                 ;       2700; FSK
+     5338500; FSK (10PM)               ; USB                 ;       2700; FSK
+     5370000; CW (5AM)                 ; CW-U                ;        500; Morse
+     5376000; CW (7AM)                 ; CW-U                ;        500; Morse
+     5380000; OTHR (slow, 2AM)         ; USB                 ;       2700; neo
+     5383000; strange digital (10PM)   ; USB                 ;       2700; neo
+     5392300; CIS-12 RUS (10PM)        ; USB                 ;       2700; CIS
+     5450000; OTHR (med, 2AM)          ; USB                 ;       2700; neo
+     5465900; R marker (RUS, watchlist); CW-U                ;        500; Marker Beacon
+     5496800; 8-chan FSK JPN (10PM)    ; USB                 ;       2700; FSK
+     5500000; CW (10PM)                ; CW-U                ;        500; Morse
+     5508000; HFDL (10PM)              ; USB                 ;       2700; HFDL
+     5514000; HFDL (1AM)               ; USB                 ;       2700; HFDL
+     5549000; FSK (7AM)                ; USB                 ;       2700; FSK
+     5555500; FSK (7AM)                ; USB                 ;       2700; FSK
+     5556000; CW (12AM)                ; CW-U                ;        500; Morse
+     5557000; STANAG 4197 (4-tone + burst, 12AM); USB                 ;       2700; STANAG
+     5566000; CW (12AM)                ; CW-U                ;        500; Morse
+     5574000; MWARA CEP-1 (Major World Air Route Areas, SF USA); USB                 ;       2700; MWARA
+     5583000; HFDL                     ; USB                 ;       2700; HFDL
+     5588000; 2SLC CHN (10PM)          ; CW-U                ;        500; Morse
+     5643000; MWARA SP (Major World Air Route Areas, South Pacific); USB                 ;       2700; MWARA
+     5648500; FSK (11PM)               ; USB                 ;       2700; FSK
+     5652000; HFDL (NY USA GS-04, 11PM); USB                 ;       2700; HFDL
+     5656000; CW (10PM)                ; CW-U                ;        500; Morse
+     5691000; FSK (1AM)                ; USB                 ;       2700; FSK
+     5705150; chirpy CW (7AM)          ; CW-U                ;        500; Morse
+     5717300; CIS-12 RUS (idling carriers, 1AM); USB                 ;       2700; CIS
+     5737000; FSK (7AM)                ; CW-U                ;        500; FSK
+     5740000; OTHR (1AM)               ; USB                 ;       2700; neo
+     5750000; CW (weak, 1AM)           ; CW-U                ;        500; Morse
+     5754000; FAX (1AM)                ; USB                 ;       2700; FAX
+     5759000; CW (1AM)                 ; CW-U                ;        500; Morse
+     5770000; OTHR (slower than the other early-morning OTHRs, 6AM); USB                 ;       2700; neo
+     5776000; FSK (1AM)                ; CW-U                ;        500; FSK
+     5790000; OTHR (med, 2AM)          ; USB                 ;       2700; neo
+     5813000; CW (1AM)                 ; CW-U                ;        500; Morse
+     5828500; STANAG-like (2AM)        ; USB                 ;       2700; neo
+     5837000; CW (10PM)                ; CW-U                ;        500; Morse
+     5840000; OTHR (med, 2AM)          ; USB                 ;       2700; neo
+     5844300; CIS-12 RUS (1AM)         ; USB                 ;       2700; CIS
+     5852000; CW (weak, 1AM)           ; CW-U                ;        500; Morse
+     5869000; STANAG 4529 (6AM)        ; USB                 ;       2700; STANAG
+     5872400; FSK (6AM)                ; CW-U                ;        500; FSK
+     5894500; CIS-12 RUS (12AM)        ; USB                 ;       2700; CIS
+     5906000; FSK (12AM)               ; CW-U                ;        500; FSK
+     6078500; ?strange digital (7PM)   ; USB                 ;       2700; neo
+     6085000; R.Mi Amigo Intl (0900-1800 CET, www.radiomiamigointernational.com); AM                  ;      10000; neo
+     6085500; FSK (1AM)                ; USB                 ;       2700; FSK
+     6208500; FSK (10PM)               ; USB                 ;       2700; FSK
+     6220000; CW (1AM)                 ; CW-U                ;        500; Morse
+     6222000; CW (2AM)                 ; CW-U                ;        500; Morse
+     6230000; VMC AUS (marine weather, 2AM); USB                 ;       2700; neo
+     6234000; SITOR (2AM)              ; USB                 ;       2700; SITOR
+     6243000; FSK (6AM)                ; USB                 ;       2700; FSK
+     6250000; slot machine JPN         ; USB                 ;       2700; neo
+     6257800; STANAG (10PM)            ; USB                 ;       2700; STANAG
+     6312000; DSC  (distress)          ; CW-U                ;        500; Morse
+     6312500; DSC                      ; CW-U                ;        500; Morse
+     6316000; XSQ CHN (10PM)           ; CW-U                ;        500; Morse
+     6317000; WLO USA (10PM)           ; CW-U                ;        500; Morse
+     6325500; SITOR (eventually gives cw id, 8PM); CW-U                ;        500; SITOR
+     6326000; XSG CHN (10PM)           ; CW-U                ;        500; Morse
+     6337000; FSK (1AM)                ; CW-U                ;        500; FSK
+     6339000; FAX (10PM)               ; USB                 ;       2700; FAX
+     6348000; FUE FRA (STANAG 4285, along side BC station, 10PM); LSB                 ;       2700; STANAG
+     6352500; WHL PACTOR (7PM)         ; CW-U                ;        500; Morse
+     6357000; FSK (10PM)               ; USB                 ;       2700; FSK
+     6366000; FSK (6PM)                ; USB                 ;       2700; FSK
+     6368500; HEB? PACTOR (6PM)        ; CW-U                ;        500; Morse
+     6385100; STANAG (10PM)            ; USB                 ;       2700; STANAG
+     6392500; 8-chan FSK JPN (10PM)    ; USB                 ;       2700; FSK
+     6399000; STANAG (7PM)             ; USB                 ;       2700; STANAG
+     6403500; STANAG (10PM)            ; USB                 ;       2700; STANAG
+     6413000; FAX (10PM)               ; USB                 ;       2700; FAX
+     6417000; slot machine JPN         ; USB                 ;       2700; neo
+     6419000; FSK (2AM)                ; USB                 ;       2700; FSK
+     6423500; CFH CAN (STANAG 4285, 10PM); USB                 ;       2700; STANAG
+     6430300; FSK (5PM)                ; USB                 ;       2700; FSK
+     6434500; MS-188-110 AUS (10PM)    ; USB                 ;       2700; neo
+     6440000; STANAG-like (narrow, 10PM); USB                 ;       2700; neo
+     6440500; CW ident (periodic, 10PM); CW-U                ;        500; Morse
+     6443350; FSK (10PM)               ; CW-U                ;        500; FSK
+     6445000; slot machine JPN         ; USB                 ;       2700; neo
+     6456500; STANAG 4285 (6PM)        ; USB                 ;       2700; STANAG
+     6462300; STANAG 4285 (10PM)       ; USB                 ;       2700; STANAG
+     6470000; OTHR (med, 2AM)          ; USB                 ;       2700; neo
+     6478500; ?wide-digital (6PM)      ; USB                 ;       2700; neo
+     6484750; CIS-12 RUS (11PM)        ; USB                 ;       2700; CIS
+     6485500; FSK (10PM)               ; USB                 ;       2700; FSK
+     6491800; STANAG? (weak, 6PM)      ; USB                 ;       2700; neo
+     6495000; CW (10PM)                ; CW-U                ;        500; Morse
+     6501000; USCG (marine weather, 10PM); USB                 ;       2700; neo
+     6507000; VMC AUS (marine weather, 11PM); USB                 ;       2700; neo
+     6535000; HFDL (2AM)               ; USB                 ;       2700; HFDL
+     6559000; HFDL (HI or SF, 10PM)    ; USB                 ;       2700; HFDL
+     6565000; Flight Watch AUS (11PM)  ; USB                 ;       2700; neo
+     6565000; HFDL (HI USA GS-02, 2AM) ; USB                 ;       2700; HFDL
+     6580000; CW (10PM)                ; CW-U                ;        500; Morse
+     6589000; HFDL (10PM)              ; USB                 ;       2700; HFDL
+     6607000; CW (8AM)                 ; CW-U                ;        500; Morse
+     6628000; MWARA NAT-A/E (Major World Air Route Areas, 7PM); USB                 ;       2700; MWARA
+     6652000; HFDL (6AM)               ; USB                 ;       2700; HFDL
+     6655000; MWARA (Major World Air Route Areas, several locations, 2AM); USB                 ;       2700; MWARA
+     6661000; FSK (10PM)               ; USB                 ;       2700; FSK
+     6661000; HFDL (NY USA GS-04, 10PM); USB                 ;       2700; HFDL
+     6662500; defective 4-chan FSK (freq wanders, 6AM); USB                 ;       2700; FSK
+     6673000; MWARA (Major World Air Route Areas, many locations, 2AM); USB                 ;       2700; MWARA
+     6676000; VOLMET Sydney (H+00/H+30); USB                 ;       2700; neo
+     6679000; VOLMET (2AM)             ; USB                 ;       2700; neo
+     6686500; LINK-11 (10PM)           ; USB                 ;       2700; neo
+     6724000; FSK (10PM)               ; USB                 ;       2700; FSK
+     6765000; Bangkok Meteo (with interval jingle, 6AM); USB                 ;       2700; neo
+     6781500; STANAG? (weak, 6PM)      ; USB                 ;       2700; neo
+     6789000; FSK (9PM)                ; CW-U                ;        500; FSK
+     6793000; RIS9 CHN (9PM)           ; CW-U                ;        500; Morse
+     6793500; FSK (12AM)               ; USB                 ;       2700; FSK
+     6799000; FSK (10PM)               ; USB                 ;       2700; FSK
+     6801000; FSK (7AM)                ; USB                 ;       2700; FSK
+     6805000; OTHR (med, 2AM)          ; USB                 ;       2700; neo
+     6812000; FSK (8PM)                ; CW-U                ;        500; FSK
+     6813000; FSK (8PM)                ; CW-U                ;        500; FSK
+     6826000; CW (4-char groups, 10PM) ; CW-U                ;        500; Morse
+     6840000; NYZ CW (622AM)           ; CW-U                ;        500; Morse
+     6842900; STANAG 4285              ; USB                 ;       2700; STANAG
+     6848300; CIS-12 RUS (6AM)         ; USB                 ;       2700; CIS
+     6851750; FSK (6AM)                ; CW-U                ;        500; FSK
+     6859000; FSK (6AM)                ; USB                 ;       2700; FSK
+     6862000; FSK (8PM)                ; CW-U                ;        500; FSK
+     6870000; OTHR (fast, 11PM)        ; USB                 ;       2700; neo
+     6875000; CW (10PM)                ; CW-U                ;        500; Morse
+     6876000; FSK (10PM)               ; CW-U                ;        500; FSK
+     6878500; FSK (11PM)               ; USB                 ;       2700; FSK
+     6884000; STANAG 4197 (4-tone + burst, 10PM); USB                 ;       2700; STANAG
+     6903000; CW (6AM)                 ; CW-U                ;        500; Morse
+     6904000; FSK (8PM)                ; CW-U                ;        500; FSK
+     6907500; ?wide-digital (7PM)      ; USB                 ;       2700; neo
+     6925000; OTHR (10PM)              ; USB                 ;       2700; neo
+     6928000; V marker (RUS, 5AM)      ; CW-U                ;        500; Marker Beacon
+     6933000; CW (10PM)                ; CW-U                ;        500; Morse
+     6935900; STANAG? (weak, 6PM)      ; USB                 ;       2700; neo
+     6940500; FSK (5PM)                ; USB                 ;       2700; FSK
+     6946000; FSK (7PM)                ; USB                 ;       2700; FSK
+     6968000; CW (6PM)                 ; CW-U                ;        500; Morse
+     6969000; CIS-12 RUS (9PM)         ; USB                 ;       2700; CIS
+     6978000; OTHR (fast, 11PM)        ; USB                 ;       2700; neo
+     6991000; FSK (9PM)                ; USB                 ;       2700; FSK
+     6994000; STANAG (10PM)            ; USB                 ;       2700; STANAG
+     7027500; V marker (RUS)           ; CW-U                ;        500; Marker Beacon
+     7035150; PSK31  (R1/3)            ; USB                 ;       2700; neo
+     7038600; WSPR                     ; USB                 ;       2700; WSPR
+     7039300; K marker (Petropavlovsk-Kamchatsky RUS, 11PM); CW-U                ;        500; Marker Beacon
+     7039400; M marker (Magadan RUS, 1AM); CW-U                ;        500; Marker Beacon
+     7063000; CIS-12 RUS (1AM)         ; USB                 ;       2700; CIS
+     7076000; JT65                     ; USB                 ;       2700; neo
+     7080150; PSK31  (R2)              ; USB                 ;       2700; neo
+     7432000; FAX (10PM)               ; USB                 ;       2700; FAX
+     7454000; FSK (8PM)                ; USB                 ;       2700; FSK
+     7462250; STANAG (8PM)             ; USB                 ;       2700; STANAG
+     7476000; FSK (5PM)                ; USB                 ;       2700; FSK
+     7508700; D marker (Sevastopol RUS, 7AM); CW-U                ;        500; Marker Beacon
+     7508900; S marker (SeveroMorsek RUS, trace, 12AM); CW-U                ;        500; Marker Beacon
+     7509200; F marker (Vladivostok RUS, 6AM); CW-U                ;        500; Marker Beacon
+     7534000; FAX (10PM)               ; USB                 ;       2700; FAX
+     7546700; STANAG (9AM)             ; USB                 ;       2700; STANAG
+     7554020; CW (10PM)                ; CW-U                ;        500; Morse
+     7554900; FUG FRA (STANAG 4285, 6PM); USB                 ;       2700; STANAG
+     7583300; CIS-12 RUS (6AM)         ; USB                 ;       2700; CIS
+     7591000; FSK (11PM)               ; USB                 ;       2700; FSK
+     7596000; FSK                      ; USB                 ;       2700; FSK
+     7600000; HD2IOA (watchlist, time signal, 1200-1300Z); LSB                 ;       2700; Time Signal
+     7609000; FSK (9PM)                ; USB                 ;       2700; FSK
+     7633000; FSK (6AM)                ; USB                 ;       2700; FSK
+     7662000; FSK (7PM)                ; USB                 ;       2700; FSK
+     7682350; FSK (10PM)               ; USB                 ;       2700; FSK
+     7699300; ?CIS-12 RUS (9PM)        ; USB                 ;       2700; CIS
+     7794000; FAX (10PM)               ; USB                 ;       2700; FAX
+     7829000; FSK (7PM)                ; USB                 ;       2700; FSK
+     7850000; CHU CAN (time signal)    ; USB                 ;       2700; Time Signal
+     7878000; FSK (4AM)                ; CW-U                ;        500; FSK
+     7879000; FAX (6PM)                ; USB                 ;       2700; FAX
+     7895000; FSK (10PM)               ; USB                 ;       2700; FSK
+     7930000; LINK-11 (6PM)            ; USB                 ;       2700; neo
+     7945000; CODAR (6AM)              ; USB                 ;       2700; neo
+     7984300; CIS-12 RUS (6AM)         ; USB                 ;       2700; CIS
+     7990100; FSK (6PM)                ; CW-U                ;        500; FSK
+     8000000; C marker (Moscow RUS, 6PM); CW-U                ;        500; Marker Beacon
+     8003000; FSK (4AM)                ; CW-U                ;        500; FSK
+     8007000; FSK (6AM)                ; USB                 ;       2700; FSK
+     8008500; 4-chan FSK? JPN? (7PM)   ; USB                 ;       2700; FSK
+     8018400; CIS-12 RUS (9PM)         ; USB                 ;       2700; CIS
+     8060000; RIS9 CHN (10PM)          ; CW-U                ;        500; Morse
+     8073000; FSK (11PM)               ; USB                 ;       2700; FSK
+     8077000; CW/FSK (10PM)            ; USB                 ;       2700; FSK
+     8092000; FSK (4AM)                ; USB                 ;       2700; FSK
+     8096000; CW (6AM)                 ; CW-U                ;        500; Morse
+     8098500; STANAG? (weak, 6PM)      ; USB                 ;       2700; neo
+     8110000; CW (1130PM)              ; CW-U                ;        500; Morse
+     8113000; VMW AUS (marine weather, weak, 10PM); USB                 ;       2700; neo
+     8123500; STANAG (weak, 6PM)       ; USB                 ;       2700; STANAG
+     8135000; FSK (6PM)                ; USB                 ;       2700; FSK
+     8144000; STANAG                   ; USB                 ;       2700; STANAG
+     8156500; STANAG 4285 (6PM)        ; USB                 ;       2700; STANAG
+     8159050; 4XZ ISR (Israel navy, 7PM); CW-U                ;        500; Morse
+     8176000; VMC AUS (marine weather, 8PM); USB                 ;       2700; neo
+     8183500; KKL28 WA/USA (PACTOR, 6PM); CW-U                ;        500; Morse
+     8223500; ?wide-digital (6PM)      ; USB                 ;       2700; neo
+     8288000; SITOR (6PM)              ; USB                 ;       2700; SITOR
+     8300700; intermittent STANAG? (loud, 3PM); USB                 ;       2700; neo
+     8310000; SITOR (10PM)             ; CW-U                ;        500; SITOR
+     8313000; slot machine JPN         ; USB                 ;       2700; neo
+     8322000; LINK-11 (7PM)            ; USB                 ;       2700; neo
+     8331500; PACTOR (5PM)             ; USB                 ;       2700; neo
+     8344000; FSK (weak, 10PM)         ; CW-U                ;        500; FSK
+     8345000; CW (6PM)                 ; CW-U                ;        500; Morse
+     8363000; CW (10PM)                ; CW-U                ;        500; Morse
+     8372000; CW (11PM)                ; CW-U                ;        500; Morse
+     8376500; SITOR (4AM)              ; CW-U                ;        500; SITOR
+     8379500; SITOR (9PM)              ; CW-U                ;        500; SITOR
+     8385500; SITOR (10PM)             ; USB                 ;       2700; SITOR
+     8395000; SITOR (9PM)              ; CW-U                ;        500; SITOR
+     8414500; DSC  (distress)          ; CW-U                ;        500; Morse
+     8415000; DSC                      ; CW-U                ;        500; Morse
+     8416500; SITOR                    ; CW-U                ;        500; SITOR
+     8417400; XSV CHN (10PM)           ; CW-U                ;        500; Morse
+     8419500; SITOR (9PM)              ; CW-U                ;        500; SITOR
+     8421000; WLO USA (8PM)            ; CW-U                ;        500; Morse
+     8424000; SVO GRC (5PM)            ; CW-U                ;        500; Morse
+     8425500; XSG CHN                  ; CW-U                ;        500; Morse
+     8431000; TAH TUR (5PM)            ; CW-U                ;        500; Morse
+     8431000; FSK (8AM)                ; USB                 ;       2700; FSK
+     8433000; XSG CHN                  ; CW-U                ;        500; Morse
+     8434000; TAH TUR (8AM)            ; CW-U                ;        500; Morse
+     8435000; XSG CHN                  ; CW-U                ;        500; Morse
+     8440500; PACTOR (8PM)             ; USB                 ;       2700; neo
+     8446500; HEB CHE (5PM)            ; CW-U                ;        500; Morse
+     8453300; FUG8 FRA (STANAG 4285, 6PM); USB                 ;       2700; STANAG
+     8457000; CW (8PM)                 ; CW-U                ;        500; Morse
+     8458000; FAX (11PM)               ; USB                 ;       2700; FAX
+     8460000; CW (weak, 8PM)           ; CW-U                ;        500; Morse
+     8463000; ESP STANAG 4285 (5PM)    ; USB                 ;       2700; STANAG
+     8466000; FAX (10PM)               ; USB                 ;       2700; FAX
+     8469300; STANAG (6PM)             ; USB                 ;       2700; STANAG
+     8473000; FSK (10PM)               ; CW-U                ;        500; FSK
+     8475500; STANAG (6PM)             ; USB                 ;       2700; STANAG
+     8478800; FUF Martinique (STANAG 4285, 11PM); USB                 ;       2700; STANAG
+     8484000; HLG KOR                  ; CW-U                ;        500; Morse
+     8484800; STANAG (6PM)             ; USB                 ;       2700; STANAG
+     8488500; STANAG (6PM)             ; USB                 ;       2700; STANAG
+     8492500; STANAG (6PM)             ; USB                 ;       2700; STANAG
+     8494800; P marker (Kaliningrad RUS, 8PM); CW-U                ;        500; Marker Beacon
+     8495200; F marker (Vladivostok RUS, weak, 12AM); CW-U                ;        500; Marker Beacon
+     8495300; K marker (Petropavlovsk-Kamchatsky RUS, 10PM); CW-U                ;        500; Marker Beacon
+     8497800; L marker (RUS)           ; CW-U                ;        500; Marker Beacon
+     8503000; FAX NMG (6PM)            ; USB                 ;       2700; FAX
+     8508000; FSK (5PM)                ; CW-U                ;        500; FSK
+     8517300; STANAG (6PM)             ; USB                 ;       2700; STANAG
+     8517500; FSK (6PM)                ; USB                 ;       2700; FSK
+     8537000; FSK                      ; USB                 ;       2700; FSK
+     8540300; STANAG (6PM)             ; USB                 ;       2700; STANAG
+     8546000; FSK (7AM)                ; USB                 ;       2700; FSK
+     8548500; FSK (4AM)                ; USB                 ;       2700; FSK
+     8551000; 8-chan FSK JPN (6AM)     ; USB                 ;       2700; FSK
+     8552900; STANAG 4285 MYS (11PM)   ; USB                 ;       2700; STANAG
+     8557000; FSK (7PM)                ; USB                 ;       2700; FSK
+     8564000; FSK (9PM)                ; USB                 ;       2700; FSK
+     8565800; FSK (5PM)                ; USB                 ;       2700; FSK
+     8588000; slot machine JPN         ; USB                 ;       2700; neo
+     8595500; STANAG (6PM)             ; USB                 ;       2700; STANAG
+     8600000; ?CW                      ; CW-U                ;        500; Morse
+     8600700; STANAG 4415? (5PM)       ; USB                 ;       2700; STANAG
+     8608000; FSK (11PM)               ; CW-U                ;        500; FSK
+     8612000; SITOR tone (continuous tone, 11PM); CW-U                ;        500; SITOR
+     8612000; CW (VVV, 11PM)           ; CW-U                ;        500; Morse
+     8617000; FSK (11PM)               ; CW-U                ;        500; FSK
+     8625300; FUM Tahiti (STANAG 4285) ; USB                 ;       2700; STANAG
+     8632900; STANAG (6PM)             ; USB                 ;       2700; STANAG
+     8636000; HLW KOR                  ; CW-U                ;        500; Morse
+     8646300; STANAG 4285              ; USB                 ;       2700; STANAG
+     8653000; FSK                      ; USB                 ;       2700; FSK
+     8655000; FSK (10PM)               ; CW-U                ;        500; FSK
+     8657000; FAX JPN                  ; USB                 ;       2700; FAX
+     8665000; XSG CHN (fast CW, 9PM)   ; CW-U                ;        500; Morse
+     8675000; FSK (6PM)                ; USB                 ;       2700; FSK
+     8676800; STANAG (9PM)             ; USB                 ;       2700; STANAG
+     8681000; FAX NMC                  ; USB                 ;       2700; FAX
+     8687500; SITOR WHL (eventually CW ident, 6PM); CW-U                ;        500; SITOR
+     8693000; FSK (10PM)               ; USB                 ;       2700; FSK
+     8697700; STANAG (6PM)             ; USB                 ;       2700; STANAG
+     8701300; CTA PRT (STANAG 4285, 6PM); USB                 ;       2700; STANAG
+     8703500; slot machine JPN         ; USB                 ;       2700; neo
+     8743000; Bangkok Meteo (with interval jingle, 11PM, 7AM); USB                 ;       2700; neo
+     8758000; FSK (11PM)               ; CW-U                ;        500; FSK
+     8758400; CIS-12 RUS (9PM)         ; USB                 ;       2700; CIS
+     8764000; USCG weather             ; USB                 ;       2700; neo
+     8780000; PSK ISR (4-tone intro, Israel navy, 6PM); USB                 ;       2700; neo
+     8788000; WX (6PM)                 ; USB                 ;       2700; neo
+     8799000; FSK (11PM)               ; CW-U                ;        500; FSK
+     8799400; CIS-12 RUS (9PM)         ; USB                 ;       2700; CIS
+     8828000; VOLMET (5PM)             ; USB                 ;       2700; neo
+     8831000; MWARA (11PM)             ; USB                 ;       2700; MWARA
+     8867000; MWARA SP (Major World Air Route Areas, South Pacific); USB                 ;       2700; MWARA
+     8891000; MWARA NAT-D (Major World Air Route Areas, 6PM); USB                 ;       2700; MWARA
+     8894000; HFDL (5PM)               ; USB                 ;       2700; HFDL
+     8912000; HFDL (5PM)               ; USB                 ;       2700; HFDL
+     8927000; HFDL (5PM)               ; USB                 ;       2700; HFDL
+     8936000; HFDL (8PM)               ; USB                 ;       2700; HFDL
+     8942000; HFDL (5PM)               ; USB                 ;       2700; HFDL
+     8948000; HFDL (5PM)               ; USB                 ;       2700; HFDL
+     8957000; HFDL (8PM)               ; USB                 ;       2700; HFDL
+     8977000; HFDL (GS-03, 5PM)        ; USB                 ;       2700; HFDL
+     8992000; HF-GCS (5PM)             ; USB                 ;       2700; neo
+     9006000; LINK-11 (10PM)           ; USB                 ;       2700; neo
+     9023000; 4-polytone (6PM)         ; USB                 ;       2700; neo
+     9025000; ALE HF-GCS (5PM)         ; USB                 ;       2700; neo
+     9054000; CW (10PM)                ; CW-U                ;        500; Morse
+     9056000; STANAG (6PM)             ; USB                 ;       2700; STANAG
+     9065000; HM01 CUB (845PM)         ; AM                  ;      10000; neo
+     9073500; FSK (9PM)                ; USB                 ;       2700; FSK
+     9074000; ?CW                      ; CW-U                ;        500; Morse
+     9084000; FSK (5PM)                ; USB                 ;       2700; FSK
+     9094000; STANAG (9PM)             ; USB                 ;       2700; STANAG
+     9098700; STANAG (5PM)             ; USB                 ;       2700; STANAG
+     9111000; FSK (5PM)                ; USB                 ;       2700; FSK
+     9121500; LINK-11 (6PM)            ; USB                 ;       2700; neo
+     9139000; FSK (9PM)                ; USB                 ;       2700; FSK
+     9155000; HM01 CUB (10PM)          ; AM                  ;      10000; neo
+     9164000; HLL2 KOR (FAX)           ; USB                 ;       2700; FAX
+     9169000; FSK (10PM)               ; CW-U                ;        500; FSK
+     9240000; HM01 CUB (9PM)           ; AM                  ;      10000; neo
+     9294000; FSK (5PM)                ; CW-U                ;        500; FSK
+     9323000; E07 numbers (Sat 0720Z)  ; USB                 ;       2700; neo
+     9326000; ?CW                      ; CW-U                ;        500; Morse
+     9330000; HM01 CUB (9PM)           ; AM                  ;      10000; neo
+     9354000; ?CW                      ; CW-U                ;        500; Morse
+     9780000; DRM (5PM)                ; USB                 ;       2700; neo
+     9898000; FSK (6PM)                ; CW-U                ;        500; FSK
+     9898500; SuperDARN radar (8PM)    ; USB                 ;       2700; neo
+     9903500; FSK (4PM)                ; USB                 ;       2700; FSK
+     9910900; STANAG 4285 (9PM)        ; USB                 ;       2700; STANAG
+     9959000; FSK (9PM)                ; USB                 ;       2700; FSK
+     9981500; FAX KVM70 HI (6PM)       ; USB                 ;       2700; FAX
+     9989000; FSK (9PM)                ; CW-U                ;        500; FSK
+     9996000; RWM RUS (time signal, 5PM, 630AM); CW-U                ;        500; Time Signal
+    10000000; WWVH / WWV (time signals); AM                  ;      10000; Time Signal
+    10000000; BPM (time signal)        ; AM                  ;      10000; Time Signal
+    10024000; MWARA SAM (11PM)         ; USB                 ;       2700; MWARA
+    10027000; HFDL (6PM)               ; USB                 ;       2700; HFDL
+    10045000; MWARA (5PM)              ; USB                 ;       2700; MWARA
+    10051000; VOLMET NY (11PM)         ; USB                 ;       2700; neo
+    10083950; HFDL (11PM)              ; USB                 ;       2700; HFDL
+    10086950; HFDL (12AM)              ; USB                 ;       2700; HFDL
+    10099800; FSK (5PM)                ; USB                 ;       2700; FSK
+    10138000; JT65                     ; USB                 ;       2700; neo
+    10138700; WSPR                     ; USB                 ;       2700; WSPR
+    10142150; PSK31                    ; USB                 ;       2700; neo
+    10152000; NAA ME (FSK)             ; USB                 ;       2700; FSK
+    10158000; FSK (11PM)               ; CW-U                ;        500; FSK
+    10168000; M12 CW (4AM)             ; CW-U                ;        500; Morse
+    10178500; SuperDARN radar (1030PM) ; USB                 ;       2700; neo
+    10186400; FUG FRA (STANAG 4285, 6PM); USB                 ;       2700; STANAG
+    10195400; STANAG (5PM)             ; USB                 ;       2700; STANAG
+    10198500; SuperDARN radar (11PM)   ; USB                 ;       2700; neo
+    10253750; FSK (FSK-CW ID, 8PM)     ; CW-U                ;        500; FSK
+    10285000; FSK (8PM)                ; USB                 ;       2700; FSK
+    10304000; FSK (5PM)                ; CW-U                ;        500; FSK
+    10309000; FSK (2AM)                ; USB                 ;       2700; FSK
+    10318500; FSK (6PM)                ; USB                 ;       2700; FSK
+    10333000; FSK (weak, 8PM)          ; CW-U                ;        500; FSK
+    10334000; FSK (8PM)                ; CW-U                ;        500; FSK
+    10345000; HM01 CUB (6PM)           ; AM                  ;      10000; neo
+    10352500; STANAG (8PM)             ; USB                 ;       2700; STANAG
+    10362000; FSK (11PM)               ; CW-U                ;        500; FSK
+    10373000; CW (11PM)                ; CW-U                ;        500; Morse
+    10373500; STANAG (5PM)             ; USB                 ;       2700; STANAG
+    10400000; FSK (11PM)               ; CW-U                ;        500; FSK
+    10405000; STANAG 4529 (11PM)       ; USB                 ;       2700; STANAG
+    10408350; FSK (11PM)               ; CW-U                ;        500; FSK
+    10421300; STANAG (12AM)            ; USB                 ;       2700; STANAG
+    10429000; FSK (9PM)                ; USB                 ;       2700; FSK
+    10543000; CW (5PM)                 ; CW-U                ;        500; Morse
+    10548000; FSK (11PM)               ; CW-U                ;        500; FSK
+    10554000; FAX (11PM)               ; USB                 ;       2700; FAX
+    10559400; STANAG (11PM)            ; USB                 ;       2700; STANAG
+    10584000; FSK (11PM)               ; CW-U                ;        500; FSK
+    10595300; STANAG (8AM)             ; USB                 ;       2700; STANAG
+    10620500; STANAG (5PM)             ; USB                 ;       2700; STANAG
+    10632000; FSK (11PM)               ; CW-U                ;        500; FSK
+    10712000; FSK (5PM)                ; CW-U                ;        500; FSK
+    10829000; FSK (9PM)                ; USB                 ;       2700; FSK
+    10872200; F marker (Vladivostok RUS, very weak, 11PM); CW-U                ;        500; Marker Beacon
+    10894000; FSK (11PM)               ; USB                 ;       2700; FSK
+    10919000; digital (7AM)            ; USB                 ;       2700; neo
+    10922350; FSK (7AM)                ; CW-U                ;        500; FSK
+    10977000; STANAG 4197 (4-tone + burst, 12AM); USB                 ;       2700; STANAG
+    10990000; MS-188-110 16-tone (with low-side pilot tone, 9PM); USB                 ;       2700; neo
+    11011400; CIS-12 RUS (12AM)        ; USB                 ;       2700; CIS
+    11029000; FAX VMC AUS (10PM)       ; USB                 ;       2700; FAX
+    11038000; FSK (11PM)               ; USB                 ;       2700; FSK
+    11089000; FAX (10PM)               ; USB                 ;       2700; FAX
+    11104000; FSK (12AM)               ; CW-U                ;        500; FSK
+    11117000; STANAG 4197 (4-tone + burst, 12AM); USB                 ;       2700; STANAG
+    11120000; FSK (2AM)                ; CW-U                ;        500; FSK
+    11146500; CIS-12 RUS (signed out with CW id, 1030PM); USB                 ;       2700; CIS
+    11158250; very strange digital (burst, multi-carrier lead-in, 11PM); USB                 ;       2700; neo
+    11175500; FSK (12AM)               ; USB                 ;       2700; FSK
+    11306000; HFDL (Guam GS-16, 9PM)   ; USB                 ;       2700; HFDL
+    11312000; HFDL (HI USA GS-02, 9PM) ; USB                 ;       2700; HFDL
+    11318000; HFDL (Bolivia GS-13, 5PM); USB                 ;       2700; HFDL
+    11444300; STANAG (8AM)             ; USB                 ;       2700; STANAG
+    11468000; FSK (11PM)               ; CW-U                ;        500; FSK
+    11468500; FSK (10PM)               ; USB                 ;       2700; FSK
+    11469500; FSK (10PM)               ; USB                 ;       2700; FSK
+    11472000; STANAG 4529 (2AM)        ; USB                 ;       2700; STANAG
+    11474500; FSK (10PM)               ; USB                 ;       2700; FSK
+    11500000; FSK (11PM)               ; USB                 ;       2700; FSK
+    12119000; FSK (6PM)                ; USB                 ;       2700; FSK
+    12145000; FUJ New Caledonia (STANAG 4285, 1PM); USB                 ;       2700; STANAG
+    12152000; CW (11PM)                ; CW-U                ;        500; Morse
+    12164000; FSK (10PM)               ; USB                 ;       2700; FSK
+    12198000; FSK (11PM)               ; CW-U                ;        500; FSK
+    12256000; FSK (1030PM)             ; CW-U                ;        500; FSK
+    12328000; CW (1040PM)              ; CW-U                ;        500; Morse
+    12336000; FSK (9PM)                ; USB                 ;       2700; FSK
+    12359700; 8-chan FSK JPN (11PM)    ; USB                 ;       2700; FSK
+    12362000; VMW AUS (marine weather, 3AM); USB                 ;       2700; neo
+    12365000; VMC AUS (marine weather, 10PM); USB                 ;       2700; neo
+    12370000; SITOR (11PM)             ; CW-U                ;        500; SITOR
+    12384500; 8-chan FSK JPN (11PM)    ; USB                 ;       2700; FSK
+    12409400; SITOR (11PM)             ; CW-U                ;        500; SITOR
+    12435000; STANAG 4197 (4-tone + burst, 11PM); USB                 ;       2700; STANAG
+    12455000; OTHR (30 kHz wide, 11PM) ; USB                 ;       2700; neo
+    12456000; beeping (1037PM)         ; CW-U                ;        500; Morse
+    12510500; SITOR (11PM)             ; CW-U                ;        500; SITOR
+    12519000; SITOR (11PM)             ; CW-U                ;        500; SITOR
+    12577000; DSC  (distress)          ; CW-U                ;        500; Morse
+    12577500; DSC                      ; CW-U                ;        500; Morse
+    12579000; SITOR                    ; CW-U                ;        500; SITOR
+    12581000; XSV CHN (10PM)           ; USB                 ;       2700; neo
+    12581000; WLO USA (10PM)           ; USB                 ;       2700; neo
+    12583200; XSV CHN (10PM)           ; CW-U                ;        500; Morse
+    12590000; FSK (11PM)               ; CW-U                ;        500; FSK
+    12612000; XSQ CHN (10PM)           ; USB                 ;       2700; neo
+    12621500; SITOR                    ; CW-U                ;        500; SITOR
+    12622400; XSQ CHN (10PM)           ; CW-U                ;        500; Morse
+    12629000; TAH TUR (8PM)            ; CW-U                ;        500; Morse
+    12636500; XSG CHN (10PM)           ; USB                 ;       2700; neo
+    12647500; XSQ CHN (10PM)           ; USB                 ;       2700; neo
+    12654000; TAH TUR (8PM)            ; CW-U                ;        500; Morse
+    12665000; FUG12 FRA (STANAG 4285, 5PM); USB                 ;       2700; STANAG
+    12678500; VZX Pactor (Sailmail AUS, 11PM); USB                 ;       2700; neo
+    12693800; STANAG (10PM)            ; USB                 ;       2700; STANAG
+    12700000; FSK (6PM)                ; USB                 ;       2700; FSK
+    12701500; FSK (11PM)               ; USB                 ;       2700; FSK
+    12705000; FSK (11PM)               ; CW-U                ;        500; FSK
+    12707000; CW (11PM)                ; CW-U                ;        500; Morse
+    12707500; SITOR (10PM)             ; CW-U                ;        500; SITOR
+    12724000; FSK (9PM)                ; CW-U                ;        500; FSK
+    12724300; STANAG (5PM)             ; USB                 ;       2700; STANAG
+    12733500; CIS-12 RUS (11PM)        ; USB                 ;       2700; CIS
+    12741000; FSK (10PM)               ; USB                 ;       2700; FSK
+    12741300; STANAG (12AM)            ; USB                 ;       2700; STANAG
+    12744000; JJC FAX (KYODO news FAX, Tokyo JPN, 11PM); USB                 ;       2700; FAX
+    12759800; 8-chan FSK JPN (11PM)    ; USB                 ;       2700; FSK
+    12766750; STANAG (8PM)             ; USB                 ;       2700; STANAG
+    12777000; FSK (11PM)               ; CW-U                ;        500; FSK
+    12785000; FAX NMC (9PM)            ; USB                 ;       2700; FAX
+    12799500; SITOR (10PM)             ; CW-U                ;        500; SITOR
+    12804000; FSK (11PM)               ; CW-U                ;        500; FSK
+    12810000; STANAG 4529 (9AM)        ; USB                 ;       2700; STANAG
+    12813400; FSK (9AM)                ; CW-U                ;        500; FSK
+    12839000; FSK (10PM)               ; USB                 ;       2700; FSK
+    12843000; HLO KOR                  ; CW-U                ;        500; Morse
+    12873900; STANAG (12AM)            ; USB                 ;       2700; STANAG
+    12916500; HLF KOR                  ; CW-U                ;        500; Morse
+    12923000; HLW2 KOR                 ; CW-U                ;        500; Morse
+    12924000; 8-chan FSK JPN (11PM)    ; USB                 ;       2700; FSK
+    12931000; STANAG (9PM)             ; USB                 ;       2700; STANAG
+    12935000; HLG KOR                  ; CW-U                ;        500; Morse
+    12937800; STANAG (7PM)             ; USB                 ;       2700; STANAG
+    12942100; STANAG (loud, 8AM)       ; USB                 ;       2700; STANAG
+    12974000; MPX (5PM)                ; USB                 ;       2700; neo
+    12983000; STANAG (5PM)             ; USB                 ;       2700; STANAG
+    12997000; FSK (1040PM)             ; CW-U                ;        500; FSK
+    13012000; AQP2 PAK (CW-ID, 12AM)   ; CW-U                ;        500; Morse
+    13019000; HEB CHE (3AM)            ; CW-U                ;        500; Morse
+    13026000; SITOR (11PM)             ; CW-U                ;        500; SITOR
+    13035300; CIS-12 RUS (10PM)        ; USB                 ;       2700; CIS
+    13042300; STANAG (3AM)             ; USB                 ;       2700; STANAG
+    13057700; STANAG (3AM)             ; USB                 ;       2700; STANAG
+    13067000; FSK (9PM)                ; USB                 ;       2700; FSK
+    13073000; FAX (9PM)                ; USB                 ;       2700; FAX
+    13107000; XSQ Radiotelephone (Guangzhou Coast Radio CHN, 1AM); USB                 ;       2700; neo
+    13110000; VOLMET (10PM)            ; USB                 ;       2700; neo
+    13149000; XSQ Radiotelephone (Guangzhou Coast Radio CHN, 10PM); USB                 ;       2700; neo
+    13154000; FSK (10PM)               ; CW-U                ;        500; FSK
+    13182000; XSQ Radiotelephone (Guangzhou Coast Radio CHN, 1AM); USB                 ;       2700; neo
+    13261000; MWARA SP (Major World Air Route Areas, South Pacific); USB                 ;       2700; MWARA
+    13270000; VOLMET (Gander / NYC, 10PM); USB                 ;       2700; neo
+    13270000; HFDL (Thailand GS-06, 11PM); USB                 ;       2700; HFDL
+    13282000; VOLMET (Auckland, Hong Kong, Honolulu, Tokyo, Beijing); USB                 ;       2700; neo
+    13300000; MWARA (9PM)              ; USB                 ;       2700; MWARA
+    13306000; MWARA (9PM)              ; USB                 ;       2700; MWARA
+    13312000; HFDL (9PM)               ; USB                 ;       2700; HFDL
+    13324000; HFDL (10PM)              ; USB                 ;       2700; HFDL
+    13351000; HFDL (2PM)               ; USB                 ;       2700; HFDL
+    13389000; FSK (11PM)               ; USB                 ;       2700; FSK
+    13404000; SITOR tone (continuous tone, 11PM); CW-U                ;        500; SITOR
+    13422000; FSK (intermittent, 11PM) ; CW-U                ;        500; FSK
+    13434000; FSK (11PM)               ; USB                 ;       2700; FSK
+    13438000; STANAG 4529 (1PM)        ; USB                 ;       2700; STANAG
+    13440000; FSK (1PM)                ; USB                 ;       2700; FSK
+    13440500; STANAG (11PM)            ; USB                 ;       2700; STANAG
+    13489000; FSK (11PM)               ; USB                 ;       2700; FSK
+    13491500; strange digital (wide, different modes, intermittent, 11PM); USB                 ;       2700; neo
+    13522300; CIS-12 RUS (10PM)        ; USB                 ;       2700; CIS
+    13527700; D marker (Sevastopol RUS, 2AM); CW-U                ;        500; Marker Beacon
+    13528000; C marker (Moscow RUS, 1AM); CW-U                ;        500; Marker Beacon
+    13528200; F marker (Vladivostok RUS, 8PM); CW-U                ;        500; Marker Beacon
+    13528400; M marker (Magadan RUS, 10PM); CW-U                ;        500; Marker Beacon
+    13561000; RFID (24/7)              ; LSB                 ;       2700; neo
+    13569000; FAX (10PM)               ; USB                 ;       2700; FAX
+    13869000; FSK (4PM)                ; USB                 ;       2700; FSK
+    13880700; wide multi-tone modem (hi-side pilot tone, 10PM); LSB                 ;       2700; neo
+    13881000; DDK6 FAX (GER, 10PM)     ; USB                 ;       2700; FAX
+    13919000; FAX VMC AUS (12PM)       ; USB                 ;       2700; FAX
+    13945000; CW (11PM)                ; CW-U                ;        500; Morse
+    13956000; CW (1045PM)              ; CW-U                ;        500; Morse
+    13984000; alternating FSK tones (have never seen FSK here, 11PM); USB                 ;       2700; FSK
+    13987500; FAX (10PM)               ; USB                 ;       2700; FAX
+    13989300; FSK (also alt short/long tones, 10PM); USB                 ;       2700; FSK
+    13993800; FSK (also alt short/long tones, 10PM); USB                 ;       2700; FSK
+    14070150; PSK31                    ; USB                 ;       2700; neo
+    14076000; JT65                     ; USB                 ;       2700; neo
+    14095600; WSPR                     ; USB                 ;       2700; WSPR
+    14300000; PACSEA net (0300/0325Z daily); USB                 ;       2700; neo
+    14300200; OFDM30 CHN (beeping idler, see iarums-r1.org, 12AM); USB                 ;       2700; neo
+    14373500; FSK (7PM)                ; USB                 ;       2700; FSK
+    14406000; FSK (10PM)               ; CW-U                ;        500; FSK
+    14411000; RDL FSK (RUS, 10PM)      ; CW-U                ;        500; FSK
+    14432800; FSK (11AM)               ; USB                 ;       2700; FSK
+    14466000; FSK (5PM)                ; USB                 ;       2700; FSK
+    14484000; FSK (9PM)                ; USB                 ;       2700; FSK
+    14502000; FSK (10PM)               ; USB                 ;       2700; FSK
+    14507300; CIS-12 RUS (7PM)         ; USB                 ;       2700; CIS
+    14518000; STANAG 4529 (BW < 1 kHz, 8PM); USB                 ;       2700; STANAG
+    14520000; FSK (11PM)               ; USB                 ;       2700; FSK
+    14540000; PACTOR (1AM)             ; USB                 ;       2700; neo
+    14600000; STANAG (8PM)             ; USB                 ;       2700; STANAG
+    14646000; CW (11PM)                ; CW-U                ;        500; Morse
+    14646100; CIS-12 RUS (11PM)        ; USB                 ;       2700; CIS
+    14653500; FSK (11PM)               ; USB                 ;       2700; FSK
+    14655000; FSK (9PM)                ; CW-U                ;        500; FSK
+    14670000; CHU CAN (time signal)    ; USB                 ;       2700; Time Signal
+    14705300; STANAG (6PM)             ; USB                 ;       2700; STANAG
+    14722500; STANAG (9PM)             ; USB                 ;       2700; STANAG
+    14760250; STANAG 4415? (3PM)       ; USB                 ;       2700; STANAG
+    14776300; WGY FEMA ALE (1230AM)    ; USB                 ;       2700; neo
+    14780000; FSK (10PM)               ; CW-U                ;        500; FSK
+    14829000; FSK (9PM)                ; USB                 ;       2700; FSK
+    14886000; FSK (7PM)                ; USB                 ;       2700; FSK
+    14960000; FSK (10PM)               ; CW-U                ;        500; FSK
+    14974000; FSK (10PM)               ; CW-U                ;        500; FSK
+    14975000; FSK (weak, 9PM)          ; USB                 ;       2700; FSK
+    14996000; RWM RUS (time signal, 8PM); CW-U                ;        500; Time Signal
+    15000000; WWVH / WWV (time signals); AM                  ;      10000; Time Signal
+    15000000; BPM (time signal)        ; AM                  ;      10000; Time Signal
+    15028800; wide multi-tone modem (11PM); USB                 ;       2700; neo
+    15520000; FSK (9PM)                ; CW-U                ;        500; FSK
+    15600000; FSK (7PM)                ; USB                 ;       2700; FSK
+    15614000; VMW FAX (AUS, 9PM)       ; USB                 ;       2700; FAX
+    15658000; FSK (9PM)                ; CW-U                ;        500; FSK
+    15720000; R. New Zealand           ; AM                  ;      10000; neo
+    15745000; DRM (10AM, 4PM)          ; USB                 ;       2700; neo
+    15768000; FSK (11PM)               ; CW-U                ;        500; FSK
+    15856000; narrow digital (5PM)     ; USB                 ;       2700; neo
+    15859400; FSK (5PM)                ; CW-U                ;        500; FSK
+    15869000; FSK (12AM)               ; USB                 ;       2700; FSK
+    15938500; FSK (7PM)                ; USB                 ;       2700; FSK
+    15958000; FSK (4PM)                ; USB                 ;       2700; FSK
+    15986500; FSK (11PM)               ; USB                 ;       2700; FSK
+    16001800; SITOR (11PM)             ; CW-U                ;        500; SITOR
+    16002300; CIS-12 RUS (9PM)         ; USB                 ;       2700; CIS
+    16021500; SITOR? (9PM)             ; USB                 ;       2700; SITOR
+    16030900; CW (12AM)                ; CW-U                ;        500; Morse
+    16034000; FAX (11PM)               ; USB                 ;       2700; FAX
+    16122000; FSK (1AM)                ; USB                 ;       2700; FSK
+    16134000; FAX (12PM)               ; USB                 ;       2700; FAX
+    16175000; FSK (9PM)                ; USB                 ;       2700; FSK
+    16175300; 6-tone FSK (9PM)         ; USB                 ;       2700; FSK
+    16179000; FSK (9PM)                ; USB                 ;       2700; FSK
+    16200000; FSK (11PM)               ; USB                 ;       2700; FSK
+    16207000; FSK (11PM)               ; CW-U                ;        500; FSK
+    16241000; freq hop (9PM)           ; USB                 ;       2700; neo
+    16332000; C marker (Moscow RUS, 10PM); CW-U                ;        500; Marker Beacon
+    16342000; STANAG (11PM)            ; USB                 ;       2700; STANAG
+    16438000; STANAG (4PM)             ; USB                 ;       2700; STANAG
+    16473500; STANAG (11PM)            ; USB                 ;       2700; STANAG
+    16528000; VMW AUS (marine weather, 11PM); USB                 ;       2700; neo
+    16546000; VMC AUS (marine weather) ; USB                 ;       2700; neo
+    16626000; CW (hand keying, 5PM)    ; CW-U                ;        500; Morse
+    16705000; CW (fast, 4PM)           ; CW-U                ;        500; Morse
+    16762000; SITOR (9PM)              ; CW-U                ;        500; SITOR
+    16789000; phone patch (11PM)       ; USB                 ;       2700; neo
+    16804500; DSC  (distress)          ; CW-U                ;        500; Morse
+    16805000; DSC                      ; CW-U                ;        500; Morse
+    16806500; SITOR                    ; CW-U                ;        500; SITOR
+    16808000; FSK (11PM)               ; CW-U                ;        500; FSK
+    16809700; XSV CHN (10PM)           ; CW-U                ;        500; Morse
+    16854000; XSQ CHN (10PM)           ; CW-U                ;        500; Morse
+    16880000; XSQ CHN (1AM)            ; CW-U                ;        500; Morse
+    16898500; XSG CHN (7PM)            ; CW-U                ;        500; Morse
+    16910000; HLJ KOR (7PM)            ; CW-U                ;        500; Morse
+    16912000; FSK (7PM)                ; CW-U                ;        500; FSK
+    16913500; STANAG (6PM)             ; USB                 ;       2700; STANAG
+    16927000; FSK (11PM)               ; CW-U                ;        500; FSK
+    16941400; CIS-12 RUS (4PM)         ; USB                 ;       2700; CIS
+    16958000; FUJ New Caledonia (STANAG 4285, 6PM); USB                 ;       2700; STANAG
+    16966400; STANAG (9PM)             ; USB                 ;       2700; STANAG
+    16967000; FSK (8PM)                ; USB                 ;       2700; FSK
+    16970000; JJC FAX (KYODO news FAX, Tokyo JPN, 9PM); USB                 ;       2700; FAX
+    16976800; JFM CW (JPN, 7PM)        ; CW-U                ;        500; Morse
+    16983850; FSK (weak, 9PM)          ; CW-U                ;        500; FSK
+    16990000; HLO KOR (7PM)            ; CW-U                ;        500; Morse
+    17000000; STANAG 4529  (BW < 1 kHz, 8PM); USB                 ;       2700; STANAG
+    17002000; FSK  (7PM)               ; USB                 ;       2700; FSK
+    17058700; MS-188-110 (8PM)         ; USB                 ;       2700; neo
+    17063700; STANAG (9PM)             ; USB                 ;       2700; STANAG
+    17068500; JJC FAX (KYODO news FAX, Tokyo JPN, 9PM); USB                 ;       2700; FAX
+    17070400; STANAG (9PM)             ; USB                 ;       2700; STANAG
+    17097900; STANAG (4PM)             ; USB                 ;       2700; STANAG
+    17121400; STANAG (9PM)             ; USB                 ;       2700; STANAG
+    17130000; HLW KOR (7PM)            ; CW-U                ;        500; Morse
+    17136000; STANAG (9PM)             ; USB                 ;       2700; STANAG
+    17150000; FAX NMC (3PM)            ; USB                 ;       2700; FAX
+    17207500; HEB CHE (9PM)            ; CW-U                ;        500; Morse
+    17215000; FSK (9PM)                ; USB                 ;       2700; FSK
+    17217400; STANAG (9PM)             ; USB                 ;       2700; STANAG
+    17229000; STANAG (5PM)             ; USB                 ;       2700; STANAG
+    17238000; STANAG (9PM)             ; USB                 ;       2700; STANAG
+    17430000; 9VF FAX (Kyodo news, Singapore, 11PM); USB                 ;       2700; FAX
+    17904000; MWARA (SF, USA, 5PM)     ; USB                 ;       2700; MWARA
+    17916000; HFDL (5PM)               ; USB                 ;       2700; HFDL
+    17919000; HFDL (9PM)               ; USB                 ;       2700; HFDL
+    18100150; PSK31                    ; USB                 ;       2700; neo
+    18104600; WSPR                     ; USB                 ;       2700; WSPR
+    18365300; STANAG (3PM)             ; USB                 ;       2700; STANAG
+    18598700; STANAG 4285 AUS (6PM)    ; USB                 ;       2700; STANAG
+    18898500; DSC                      ; CW-U                ;        500; Morse
+    19739500; STANAG (4PM)             ; USB                 ;       2700; STANAG
+    19743000; STANAG (4PM)             ; USB                 ;       2700; STANAG
+    20000000; WWV (time signal)        ; AM                  ;      10000; Time Signal
+    20048400; marker beacons (watchlist); CW-U                ;        500; Marker Beacon
+    20468000; FAX VMC AUS (11AM)       ; USB                 ;       2700; FAX
+    21076000; JT65                     ; USB                 ;       2700; neo
+    21094600; WSPR                     ; USB                 ;       2700; WSPR
+    21928000; HFDL (3PM)               ; USB                 ;       2700; HFDL
+    22251000; CW (3PM)                 ; CW-U                ;        500; Morse
+    22374500; DSC                      ; CW-U                ;        500; Morse
+    22461400; FUJ New Caledonia (STANAG 4285, 2PM); USB                 ;       2700; STANAG
+    22525000; FAX NMC (3PM)            ; USB                 ;       2700; FAX
+    24930000; IBP (NCDXF/IARU international beacon project); CW-U                ;        500; Morse
+    25000000; WWV (time signal)        ; AM                  ;      10000; Time Signal
+    25208500; DSC                      ; CW-U                ;        500; Morse
+    28200000; IBP (NCDXF/IARU international beacon project); CW-U                ;        500; Morse
