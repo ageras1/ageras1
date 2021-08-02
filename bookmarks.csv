@@ -22,7 +22,7 @@ FAX                 ; #f6d32d
        16400; JXN NOR (MSK)            ; CW-U                ;        500; Morse
        16800; FTA FRA (FSK)            ; CW-U                ;        500; FSK
        17000; VTX2 IND (MSK)           ; CW-U                ;        500; Morse
-       17200; SAQ SWE ("Grimeton alternator, twice yearly transmissions, see: alexander.n.se/?lang=en"); CW-U                ;        500; Morse
+       17200; SAQ SWE (Grimeton alternator twice yearly transmissions see alexander.n.se/?lang=en); CW-U                ;        500; Morse
        18100; RDL RUS (FSK)            ; CW-U                ;        500; FSK
        18200; VTX3 IND (MSK)           ; CW-U                ;        500; Morse
        18300; HWU FR (MSK)             ; CW-U                ;        500; Morse
